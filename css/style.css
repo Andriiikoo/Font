@@ -1,0 +1,126 @@
+@import url('./var.css');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    min-height: 100vh;
+    font-size: var(--main-font-size);
+    background: var(--background-main);
+    color: var(--main-text-color);
+    font-family: "PT Sans", sans-serif;
+}
+
+.container {
+    max-width: var(--width-container);
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nav__title {
+    font-family: "Tourney", serif;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.nav__menu {
+    font-family: "Staatliches", serif;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.nav__logo {
+    width: 235px;
+    height: 45px;
+}
+
+.text__main {
+    font-family: "PT Sans", serif;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.title {
+    color: var(--main-title-color);
+    font-family: "Francois One", serif;
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.title__container {
+    width: 100%;
+}
+.title__superscript  {
+    font-family: "Farro", serif;
+    font-size: 0.5em; 
+    font-weight: 100;
+    vertical-align: super;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: left  ;
+    gap: 5vw;
+}
+
+.header {
+    padding: 20px 0;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.header span {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(--main-text-color);
+}
+
+.logo {
+    font-family: "Staatliches", sans-serif;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    color: #000;
+    letter-spacing: 2px;
+}
+
+.main {
+    padding: 40px 0;
+}
+
+.font {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 70px auto;
+}
+
+.font a {
+    color: #000000;
+    text-decoration: underline;}
+
+.font a:hover {
+    color: #007bff;
+    text-decoration: underline;
+    
+}
+
+ul, ol {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .text-align-left {
+    text-align: left;
+  }
+
+  .highlight {
+    background-color: #DADADA;
+  }

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Task 11</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Farro:wght@300;400;500;700&family=Francois+One&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Staatliches&family=Tourney:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container flex-container">
+            <div class="left__content flex-container">
+                <h1 class="nav__title">ENG</h1>
+                <p class="nav__menu">DOCUMENTATION / WHO'S USING</p>
+            </div>
+            <div class="nav__logo">
+                <img class="nav__logo_img" src="./assets/img/company-logo-black.svg" alt="KONSTRUCT">
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <section class="font flex-container">
+                <div class="title__container">
+                    <h2 class="title">INTRODUCTION <span class="title__superscript">Chapter 1</span></h2>
+                </div>
+                <p class="text__main">
+                    Welcome to the very start of your React Native journey! If you’re looking for environment setup instructions,
+                    they’ve moved to <a href="#">their own section</a>. Continue reading for an introduction to the documentation,
+                    Native Components, React, and more!
+                </p>
+            </section>
+            <section class="font flex-container">
+                <div class="title__container">
+                    <h2 class="title">CORE COMPONENTS <span class="title__superscript">Chapter 2</span></h2>
+                </div>
+                <p class="text__main">
+                    React Native is an open-source framework for building Android and iOS applications using React and the app platform’s native capabilities.
+                    With React Native, you use JavaScript to access your platform’s APIs as well as to describe the appearance and behavior of your UI using React components:
+                    <em>bundles of reusable, nestable code</em>. You can learn more about React in the next section. But first, let’s cover how components work in React Native.
+                </p>
+            </section>
+            <section class="font flex-container text-align-left">
+                <div class="title__container">
+                    <h2 class="title">REACT FUNDAMENTALS <span class="title__superscript">Chapter 3</span></h2>
+                </div>
+                <p class="text__main">
+                    React Native runs on <a href="#">React</a>, a popular open-source library for building user interfaces with JavaScript. To make the most of React Native, it helps to understand React itself. This section can get you started or can serve as a refresher course.
+                </p>
+                <p class="text__main">
+                    We’re going to cover the core concepts behind React:
+                </p>
+                <ul class="text__list">
+                    <li class="text__main">
+                        + <b>components.</b> The rest of this introduction to React uses cats in its examples: friendly, approachable creatures that need names and a cafe to work in.
+                    </li>
+                    <li class="text__main">
+                        + <b>JSX.</b> React and React Native use JSX, a syntax that lets you write elements inside JavaScript like so: 
+                        <span class="highlight">
+                            <code>&lt;Text&gt;Hello, I am your cat!&lt;/Text&gt;</code>.
+                        </span>
+                        <p class="text__main">
+                            The React docs have a comprehensive guide to JSX you can refer to learn even more. Because JSX is JavaScript, you can use variables inside it. Here you are declaring a 
+                            <span class="highlight">name</span> for the cat, name, and embedding it with curly braces inside 
+                            <span class="highlight">
+                                <code>&lt;Text&gt;</code>
+                            </span>
+                        </p>
+                    </li>
+                    <li class="text__main">
+                        + <b>props.</b> Props is short for “properties”.
+                    </li>
+                    <li class="text__main">+ <b>state.</b> While you can think of props as arguments you use to configure how components render, state is like a component’s personal data storage. State is useful for handling data that changes over time or that comes from user interaction. State gives your components memory!
+                    </li>
+                </ul>
+            </section>
+            <section class="font flex-container">
+                <div class="title__container">
+                    <h2 class="title">HANDLING TEXT INPUT <span class="title__superscript">Chapter 4</span></h2>
+                </div>
+                <p class="text__main">
+                    TextInput is a Core Component that allows the user to enter text. It has an <code>onChangeText</code> prop that takes a function to be called every time the text changes, and an <code>onSubmitEditing</code> prop that takes a function to be called when the text is submitted.
+                </p>
+                <p class="text__main">
+                    For example, let’s say that as the user types, you’re translating their words into a different language. In this new language, every single word is written the same way: 🍕. So the sentence "Hello there Bob" would be translated as "🍕 🍕 🍕".
+                </p>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
